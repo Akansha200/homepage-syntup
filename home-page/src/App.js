@@ -1,0 +1,19 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Header from './components/header';
+import SiteInfo from './components/main';
+import Footer from './components/footer';
+import './css/main.css';
+
+function App() {
+  return (
+    <div className="body">
+      <Header/>
+      <SiteInfo/>
+      <Footer/>
+    </div>
+  );
+}
+
+export default App;
